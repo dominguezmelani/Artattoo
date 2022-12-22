@@ -1,0 +1,636 @@
+@import url("https://fonts.googleapis.com/css2? family= Anton & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap");
+/*-----------------RESEAT-----------------*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*---------------HEADER---------------*/
+header {
+  background-color: rgba(0, 0, 0, 0.932);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logotipo {
+  width: 50px;
+  height: auto;
+  margin: 10px 15px 10px 15px;
+}
+header nav ul {
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+}
+header nav ul li {
+  margin: 10px 15px 10px 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: #0e7c7b;
+}
+/*---------------------------------------HOME---------------------------------------*/
+/*---------------MAIN---------------*/
+.hero {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: #ffffff;
+  font-size: 150px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+.sobreNosotros {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sobreNosotros div {
+  width: 700px;
+  text-align: center;
+}
+.sobreNosotros div h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  /*background-color: #f3ffb6;*/
+  margin: 20px;
+  /*padding: 15px;*/
+}
+.sobreNosotros div p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 15px;
+}
+.sobreNosotros img {
+  width: 350px;
+  height: 500px;
+  margin: 15px;
+}
+.estilos .estilosContenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.estilos h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  /*background-color: #f3ffb6;*/
+  padding: 15px;
+  text-align: center;
+}
+.estilos h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.estilos .estilosContenedor div {
+  width: 250px;
+  height: 300px;
+  background-color: #0e7c7b;
+  margin: 20px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.estilos .estilosContenedor div:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+}
+.estilos .estilosContenedor div img {
+  width: 250px;
+  height: 250px;
+}
+.estilos .estilosContenedor div h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 30px;
+}
+.testimonios .testimoniosContenedor {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonios h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  /*background-color: #f3ffb6;*/
+  /*padding: 15px;*/
+  margin-top: 20px;
+  text-align: center;
+}
+.testimonios .testimoniosContenedor p {
+  width: 700px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+/*---------------------------------------DESCUBRI---------------------------------------*/
+.heroDescubri {
+  width: 100%;
+  height: 90vh;
+  /*background-image: url(../img/headerdescubri.jpg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url(../img/headerdescubri.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroDescubri h1 {
+  color: #ffffff;
+  font-size: 100px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+.textoDescubri h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  /*background-color: #f3ffb6;*/
+  /*padding: 15px;*/
+  margin: 20px;
+  text-align: center;
+}
+.textoDescubri p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.disenios .diseniosContenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.disenios .diseniosContenedor div {
+  width: 280px;
+  height: 530px;
+  background-color: #0e7c7b;
+  margin: 20px;
+  text-align: center;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.disenios .diseniosContenedor div:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+}
+.disenios .diseniosContenedor div img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.disenios .diseniosContenedor div h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.disenios .diseniosContenedor div a {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: black;
+  background-color: #f3ffb6;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 10px;
+  display: block;
+}
+.reserva h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  /*background-color: #f3ffb6;*/
+  /*padding: 15px;*/
+  margin-top: 20px;
+  text-align: center;
+}
+.reserva .parrafoReserva {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.reserva form {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 20% 20%;
+  justify-content: space-around;
+}
+.reserva form h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px;
+}
+.reserva form p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px;
+}
+.reserva .reservaDias {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 2px;
+}
+.reservaDias input,
+.reservaInfo input {
+  width: unset;
+}
+.reserva form div .reservaDias label {
+  margin-left: 10px;
+}
+.reserva form div .inputReserva {
+  width: 60px;
+  margin: 10px;
+}
+
+.agradecimiento h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  background-color: #f3ffb6;
+  padding: 15px;
+  text-align: center;
+}
+/*---------------------------------------CUIDADOS---------------------------------------*/
+.heroCuidados {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)),
+    url(../img/headercuidados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroCuidados h1 {
+  color: white;
+  font-size: 100px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+.textoCuidados {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.textoCuidados h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(192, 3, 3);
+  letter-spacing: 5px;
+  margin: 20px;
+  text-align: center;
+}
+.textoCuidados p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+}
+.textoCuidados img {
+  width: 340px;
+  height: 500px;
+}
+.tipsCuidados {
+  width: 50%;
+}
+.tipsCuidados h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+.tipsCuidados p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px;
+}
+.aclaracion {
+  background-color: #ff1010de;
+  padding: 15px;
+  text-align: center;
+}
+.aclaracion h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #000000;
+}
+.aclaracion p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+/*---------------------------------------FAQ'S---------------------------------------*/
+.heroFaqs {
+  width: 100%;
+  height: 90vh;
+  /*background-image: url(../img/faqs.jpg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)),
+    url(../img/faqs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroFaqs h1 {
+  color: white;
+  font-size: 100px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+.preguntasFrecuentes h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  background-color: #f3ffb6;
+  padding: 15px;
+}
+.preguntasFrecuentes p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 20px;
+}
+/*---------------------------------------CONTACTO---------------------------------------*/
+.heroContacto {
+  width: 100%;
+  height: 90vh;
+  /*background-image: url(../img/contacto.jpg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url(../img/contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroContacto h1 {
+  color: white;
+  font-size: 100px;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+.dudasContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dudasContacto h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  background-color: #f3ffb6;
+  padding: 15px;
+}
+.dudasContacto h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+.dudasContacto p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.dudasContacto img {
+  width: 50px;
+}
+.contactoContainer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 30px;
+}
+.formContacto {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+fieldset {
+  padding: 30px;
+}
+label {
+  display: block;
+}
+form input {
+  width: 100%;
+  padding: 5px 0;
+}
+textarea {
+  width: 100%;
+  resize: none;
+}
+input[type="submit"] {
+  width: 15%;
+}
+/*---------------FOOTER---------------*/
+footer {
+  background-color: #0e7c7b;
+  padding: 10px;
+}
+footer .footerContenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.footerContenedor .footerContacto {
+  width: 20%;
+}
+.footerContenedor .footerContacto h3 {
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+.footerContenedor iframe {
+  width: 300px;
+  height: 200px;
+}
+footer .footerContenedor .footerRedes {
+  width: 250px;
+}
+footer .footerContenedor .footerRedes img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  transition: 1s;
+}
+footer .footerContenedor .footerRedes img:hover {
+  transform: scale(1.2);
+}
+footer p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+/*---------------------------------------MEDIA QUERY---------------------------------------*/
+@media screen and (max-width: 1235px) {
+  .heroDescubri h1 {
+    text-align: center;
+  }
+  footer .footerContenedor .footerRedes {
+    width: auto;
+  }
+  .tipsCuidados {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 845px) {
+  .heroDescubri h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .sobreNosotros {
+    flex-direction: column;
+  }
+  .sobreNosotros div {
+    width: 100%;
+  }
+  .textoDescubri div p {
+    margin: 20px;
+  }
+  .textoCuidados {
+    flex-direction: column;
+  }
+  .heroCuidados h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footerContenedor {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footerContenedor .footerContacto {
+    width: 100%;
+  }
+  .reserva {
+    text-align: center;
+  }
+  .reserva form {
+    grid-template-columns: 50%;
+    grid-auto-rows: auto auto;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 605px) {
+  .hero h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 410px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .sobreNosotros div h2 {
+    margin: 10px;
+  }
+  .heroDescubri h1 {
+    font-size: 75px;
+  }
+  .agradecimiento h2 {
+    font-size: 25px;
+  }
+  .aclaracion h2 {
+    font-size: 25px;
+  }
+  .heroCuidados h1 {
+    font-size: 60px;
+  }
+  .textoCuidados h2 {
+    font-size: 30px;
+  }
+}
