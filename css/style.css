@@ -415,10 +415,11 @@ header nav ul li a:hover {
 }
 .preguntasFrecuentes h2 {
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 40px;
-  background-color: #f3ffb6;
-  padding: 15px;
+  letter-spacing: 5px;
+  margin: 20px;
+  text-align: center;
 }
 .preguntasFrecuentes p {
   font-family: "Oswald", sans-serif;
