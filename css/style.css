@@ -455,13 +455,6 @@ header nav ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
 }
-.dudasContacto h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  font-size: 40px;
-  background-color: #f3ffb6;
-  padding: 15px;
-}
 .dudasContacto h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
@@ -481,6 +474,19 @@ header nav ul li a:hover {
   padding: 30px;
 }
 .formContacto {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.formContacto h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin: 20px;
+  text-align: center;
+}
+.formContacto h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -557,9 +563,26 @@ footer p {
     width: 100%;
   }
 }
+@media screen and (max-width: 1079px) {
+  .contactoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dudasContacto div {
+    text-align: center;
+    margin: 20px;
+  }
+  .heroFaqs h1 {
+    font-size: 80px;
+  }
+}
 @media screen and (max-width: 845px) {
   .heroDescubri h1 {
     font-size: 80px;
+  }
+  .heroFaqs h1 {
+    font-size: 60px;
   }
 }
 @media screen and (max-width: 790px) {
@@ -595,6 +618,9 @@ footer p {
     grid-auto-rows: auto auto;
     justify-content: center;
   }
+  .heroContacto h1 {
+    font-size: 60px;
+  }
 }
 @media screen and (max-width: 605px) {
   .hero h1 {
@@ -605,6 +631,9 @@ footer p {
 @media screen and (max-width: 580px) {
   header {
     flex-direction: column;
+  }
+  .formContacto input {
+    width: auto;
   }
 }
 @media screen and (max-width: 410px) {
@@ -633,5 +662,8 @@ footer p {
   }
   .textoCuidados h2 {
     font-size: 30px;
+  }
+  .heroContacto h1 {
+    font-size: 50px;
   }
 }
