@@ -18,9 +18,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
 }
-.logotipo {
+header div a img {
   width: 50px;
   height: auto;
   margin: 10px 15px 10px 15px;
@@ -29,14 +28,13 @@ header nav ul {
   list-style: none;
   font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
-  display: flex;
 }
 header nav ul li {
   margin: 10px 15px 10px 15px;
 }
-header nav ul li a {
+header nav ul li .pages {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   transition: 1s;
 }
 header nav ul li a:hover {
@@ -139,13 +137,6 @@ header nav ul li a:hover {
   color: white;
   margin-bottom: 30px;
 }
-.testimonios .testimoniosContenedor {
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .testimonios h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -156,14 +147,11 @@ header nav ul li a:hover {
   margin-top: 20px;
   text-align: center;
 }
-.testimonios .testimoniosContenedor p {
-  width: 700px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  margin: 10px;
-  text-align: center;
-}
+/*.testimonios img {
+  width: 50px;
+  height: 500px;
+}*/
+
 /*---------------------------------------DESCUBRI---------------------------------------*/
 .heroDescubri {
   width: 100%;
@@ -387,7 +375,6 @@ header nav ul li a:hover {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  margin: 20px;
   text-align: center;
 }
 /*---------------------------------------FAQ'S---------------------------------------*/
@@ -562,6 +549,10 @@ footer p {
   .tipsCuidados {
     width: 100%;
   }
+  .testimonios img {
+    width: auto;
+    height: auto;
+  }
 }
 @media screen and (max-width: 1079px) {
   .contactoContainer {
@@ -575,6 +566,12 @@ footer p {
   }
   .heroFaqs h1 {
     font-size: 80px;
+  }
+  .formContacto h3 {
+    text-align: center;
+  }
+  .formContacto p {
+    text-align: center;
   }
 }
 @media screen and (max-width: 845px) {
