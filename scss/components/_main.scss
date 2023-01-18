@@ -1,0 +1,476 @@
+/*-----HOME-----*/
+.hero {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #ffffff;
+    font-size: 150px;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+  }
+}
+.sobreNosotros {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  div {
+    width: 700px;
+    text-align: center;
+    h2 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      letter-spacing: 5px;
+      margin: 20px;
+    }
+    p {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      margin: 15px;
+    }
+  }
+  img {
+    width: 350px;
+    height: 500px;
+    margin: 15px;
+  }
+}
+.estilos {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding: 15px;
+    text-align: center;
+  }
+  h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+  }
+  .estilosContenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    div {
+      width: 250px;
+      height: 300px;
+      background-color: #0e7c7b;
+      margin: 20px;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+      }
+      img {
+        width: 250px;
+        height: 250px;
+      }
+      h3 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: white;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+.testimonios {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+/*-----DESCUBRI-----*/
+.heroDescubri {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url(../img/headerdescubri.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #ffffff;
+    font-size: 100px;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+  }
+}
+.textoDescubri {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 20px;
+    text-align: center;
+  }
+  div {
+    p {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+}
+.disenios {
+  .diseniosContenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    div {
+      width: 280px;
+      height: 530px;
+      background-color: #0e7c7b;
+      margin: 20px;
+      text-align: center;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 6px 8px 16px 7px rgba(0, 0, 0, 0.75);
+      }
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+      h3 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 10px;
+      }
+      a {
+        font-family: "Oswald", sans-serif;
+        text-decoration: none;
+        color: black;
+        background-color: #f3ffb6;
+        padding: 5px;
+        font-weight: 400;
+        margin-top: 10px;
+        display: block;
+      }
+    }
+  }
+}
+.reserva {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .parrafoReserva {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  form {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: space-around;
+    div {
+      h3 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 10px;
+      }
+      .reservaInfo {
+        input {
+          width: unset;
+        }
+        label {
+          margin-left: 10px;
+        }
+      }
+    }
+    div {
+      p {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        margin: 10px;
+      }
+      div {
+        .reservaDias {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: flex-end;
+          margin: 2px;
+          input {
+            width: unset;
+          }
+          label {
+            margin-left: 10px;
+          }
+          .inputReserva {
+            width: 60px;
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.agradecimiento {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    background-color: #f3ffb6;
+    padding: 15px;
+    text-align: center;
+  }
+}
+.aclaracion {
+  background-color: #ff1010de;
+  padding: 15px;
+  text-align: center;
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
+  }
+  p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+/*-----CUIDADOS-----*/
+.heroCuidados {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)),
+    url(../img/headercuidados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+  }
+}
+.textoCuidados {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  div {
+    h2 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      color: rgb(192, 3, 3);
+      letter-spacing: 5px;
+      margin: 20px;
+      text-align: center;
+    }
+    p {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      margin: 15px;
+      text-align: center;
+    }
+  }
+  img {
+    width: 340px;
+    height: 500px;
+  }
+}
+.tipsCuidados {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  div {
+    h2 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 3px;
+      margin: 10px;
+      text-align: center;
+    }
+    p {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+  }
+}
+/*-----FAQ'S-----*/
+.heroFaqs {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)),
+    url(../img/faqs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+  }
+}
+.preguntasFrecuentes {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 20px;
+    text-align: center;
+  }
+}
+/*-----CONTACTO-----*/
+.heroContacto {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.5)),
+    url(../img/contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+  }
+}
+.contactoContainer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 30px;
+  .dudasContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    div {
+      h3 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        font-size: 32px;
+      }
+      p {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+    div {
+      .redesContacto {
+        a {
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+.formContacto {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 20px;
+    text-align: center;
+  }
+  h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  form {
+    fieldset {
+      padding: 30px;
+      div {
+        label {
+          display: block;
+        }
+        input {
+          width: 100%;
+          padding: 5px 0;
+        }
+        textarea {
+          width: 100%;
+          resize: none;
+        }
+      }
+    }
+  }
+}

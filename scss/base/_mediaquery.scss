@@ -1,0 +1,125 @@
+@media screen and (max-width: 1235px) {
+  .heroDescubri h1 {
+    text-align: center;
+  }
+  footer .footerContenedor .footerRedes {
+    width: auto;
+  }
+  .tipsCuidados {
+    width: 100%;
+  }
+  .testimonios img {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .contactoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dudasContacto div {
+    text-align: center;
+    margin: 20px;
+  }
+  .heroFaqs h1 {
+    font-size: 80px;
+  }
+  .formContacto h3 {
+    text-align: center;
+  }
+  .formContacto p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 845px) {
+  .heroDescubri h1 {
+    font-size: 80px;
+  }
+  .heroFaqs h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .sobreNosotros {
+    flex-direction: column;
+  }
+  .sobreNosotros div {
+    width: 100%;
+  }
+  .textoDescubri div p {
+    margin: 20px;
+  }
+  .textoCuidados {
+    flex-direction: column;
+  }
+  .heroCuidados h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer .footerContenedor {
+    flex-direction: column;
+    width: 100%;
+  }
+  footer .footerContenedor .footerContacto {
+    width: 100%;
+  }
+  .reserva {
+    text-align: center;
+  }
+  .reserva form {
+    grid-template-columns: 50%;
+    grid-auto-rows: auto auto;
+    justify-content: center;
+  }
+  .heroContacto h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .hero h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    flex-direction: column;
+  }
+  .formContacto input {
+    width: auto;
+  }
+}
+@media screen and (max-width: 410px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .sobreNosotros div h2 {
+    margin: 10px;
+  }
+  .heroDescubri h1 {
+    font-size: 75px;
+  }
+  .agradecimiento h2 {
+    font-size: 25px;
+  }
+  .aclaracion h2 {
+    font-size: 25px;
+  }
+  .heroCuidados h1 {
+    font-size: 60px;
+  }
+  .textoCuidados div h2 {
+    font-size: 30px;
+  }
+  .heroContacto h1 {
+    font-size: 50px;
+  }
+}

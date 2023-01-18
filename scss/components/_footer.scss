@@ -1,0 +1,45 @@
+/*-----FOOTER-----*/
+footer {
+  background-color: #0e7c7b;
+  padding: 10px;
+  .footerContenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    .footerContacto {
+      width: 20%;
+      h3 {
+        margin: 10px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+    .footerRedes {
+      width: 250px;
+      a {
+        img {
+          width: 40px;
+          height: 40px;
+          margin: 10px;
+          transition: 1s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+  p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+  }
+}
