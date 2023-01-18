@@ -6,6 +6,14 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.sobreNosotros div h2, .estilos h2, .testimonios h2, .textoDescubri h2, .reserva h2, .textoCuidados div h2, .preguntasFrecuentes h2, .formContacto h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 20px; }
+
 /*-----HEADER-----*/
 header {
   background-color: rgba(0, 0, 0, 0.932);
@@ -41,7 +49,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -60,12 +67,6 @@ header {
   .sobreNosotros div {
     width: 700px;
     text-align: center; }
-    .sobreNosotros div h2 {
-      font-family: "Oswald", sans-serif;
-      font-weight: 400;
-      font-size: 40px;
-      letter-spacing: 5px;
-      margin: 20px; }
     .sobreNosotros div p {
       font-family: "Oswald", sans-serif;
       font-weight: 300;
@@ -75,14 +76,6 @@ header {
     width: 350px;
     height: 500px;
     margin: 15px; }
-
-.estilos h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 5px;
-  padding: 15px;
-  text-align: center; }
 
 .estilos h3 {
   font-family: "Oswald", sans-serif;
@@ -116,14 +109,6 @@ header {
       color: white;
       margin-bottom: 30px; }
 
-.testimonios h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 5px;
-  margin-top: 20px;
-  text-align: center; }
-
 /*-----DESCUBRI-----*/
 .heroDescubri {
   width: 100%;
@@ -142,14 +127,6 @@ header {
     padding: 10px;
     font-family: "Anton", sans-serif;
     font-weight: 600; }
-
-.textoDescubri h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 5px;
-  margin: 20px;
-  text-align: center; }
 
 .textoDescubri div p {
   font-family: "Oswald", sans-serif;
@@ -194,14 +171,6 @@ header {
       font-weight: 400;
       margin-top: 10px;
       display: block; }
-
-.reserva h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 5px;
-  margin-top: 20px;
-  text-align: center; }
 
 .reserva .parrafoReserva {
   font-family: "Oswald", sans-serif;
@@ -276,7 +245,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -293,13 +261,7 @@ header {
   justify-content: space-evenly;
   align-items: center; }
   .textoCuidados div h2 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    color: #c00303;
-    letter-spacing: 5px;
-    margin: 20px;
-    text-align: center; }
+    color: #c00303; }
   .textoCuidados div p {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
@@ -336,7 +298,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -348,14 +309,6 @@ header {
     font-family: "Anton", sans-serif;
     font-weight: 600; }
 
-.preguntasFrecuentes h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 5px;
-  margin: 20px;
-  text-align: center; }
-
 /*-----CONTACTO-----*/
 .heroContacto {
   width: 100%;
@@ -364,7 +317,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -399,13 +351,6 @@ header {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 20px; }
-  .formContacto h2 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin: 20px;
-    text-align: center; }
   .formContacto h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
