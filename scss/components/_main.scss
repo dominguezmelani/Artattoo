@@ -12,11 +12,7 @@
   justify-content: map-get($title, jus-cont);
   align-items: map-get($title, ali-it);
   h1 {
-    color: #ffffff;
-    font-size: 150px;
-    padding: 10px;
-    font-family: "Anton", sans-serif;
-    font-weight: 600;
+    @include h1(#ffffff, 150px, 10px, "Anton" sans-serif, 600);
   }
 }
 .sobreNosotros {
@@ -102,11 +98,7 @@
   justify-content: map-get($title, jus-cont);
   align-items: map-get($title, ali-it);
   h1 {
-    color: #ffffff;
-    font-size: 100px;
-    padding: 10px;
-    font-family: "Anton", sans-serif;
-    font-weight: 600;
+    @include h1(#ffffff, 100px, 10px, "Anton" sans-serif, 600);
   }
 }
 .textoDescubri {
@@ -271,11 +263,7 @@
   justify-content: map-get($title, jus-cont);
   align-items: map-get($title, ali-it);
   h1 {
-    color: white;
-    font-size: 100px;
-    padding: 10px;
-    font-family: "Anton", sans-serif;
-    font-weight: 600;
+    @include h1(#ffffff, 100px, 10px, "Anton" sans-serif, 600);
   }
 }
 .textoCuidados {
@@ -336,11 +324,7 @@
   justify-content: map-get($title, jus-cont);
   align-items: map-get($title, ali-it);
   h1 {
-    color: white;
-    font-size: 100px;
-    padding: 10px;
-    font-family: "Anton", sans-serif;
-    font-weight: 600;
+    @include h1(#ffffff, 100px, 10px, "Anton" sans-serif, 600);
   }
 }
 .preguntasFrecuentes {
@@ -362,11 +346,7 @@
   justify-content: map-get($title, jus-cont);
   align-items: map-get($title, ali-it);
   h1 {
-    color: white;
-    font-size: 100px;
-    padding: 10px;
-    font-family: "Anton", sans-serif;
-    font-weight: 600;
+    @include h1(#ffffff, 100px, 10px, "Anton" sans-serif, 600);
   }
 }
 .contactoContainer {

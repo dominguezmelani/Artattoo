@@ -57,7 +57,7 @@ header {
     color: #ffffff;
     font-size: 150px;
     padding: 10px;
-    font-family: "Anton", sans-serif;
+    font-family: "Anton" sans-serif;
     font-weight: 600; }
 
 .sobreNosotros {
@@ -125,7 +125,7 @@ header {
     color: #ffffff;
     font-size: 100px;
     padding: 10px;
-    font-family: "Anton", sans-serif;
+    font-family: "Anton" sans-serif;
     font-weight: 600; }
 
 .textoDescubri div p {
@@ -250,10 +250,10 @@ header {
   justify-content: center;
   align-items: center; }
   .heroCuidados h1 {
-    color: white;
+    color: #ffffff;
     font-size: 100px;
     padding: 10px;
-    font-family: "Anton", sans-serif;
+    font-family: "Anton" sans-serif;
     font-weight: 600; }
 
 .textoCuidados {
@@ -303,10 +303,10 @@ header {
   justify-content: center;
   align-items: center; }
   .heroFaqs h1 {
-    color: white;
+    color: #ffffff;
     font-size: 100px;
     padding: 10px;
-    font-family: "Anton", sans-serif;
+    font-family: "Anton" sans-serif;
     font-weight: 600; }
 
 /*-----CONTACTO-----*/
@@ -322,10 +322,10 @@ header {
   justify-content: center;
   align-items: center; }
   .heroContacto h1 {
-    color: white;
+    color: #ffffff;
     font-size: 100px;
     padding: 10px;
-    font-family: "Anton", sans-serif;
+    font-family: "Anton" sans-serif;
     font-weight: 600; }
 
 .contactoContainer {

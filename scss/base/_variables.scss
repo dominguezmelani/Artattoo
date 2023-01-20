@@ -19,3 +19,11 @@ $title: (
   letter-spacing: 5px;
   margin: 20px;
 }
+//!MIXIN
+@mixin h1($color, $size, $padding, $family, $weight) {
+  color: $color;
+  font-size: $size;
+  padding: $padding;
+  font-family: $family;
+  font-weight: $weight;
+}
