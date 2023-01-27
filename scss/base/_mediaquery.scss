@@ -33,6 +33,11 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 992px) {
+  .testimonios {
+    display: none;
+  }
+}
 @media screen and (max-width: 845px) {
   .heroDescubri h1 {
     font-size: 80px;

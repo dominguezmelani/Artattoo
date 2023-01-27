@@ -39,6 +39,9 @@ header nav ul li .pages {
 header nav ul li a:hover {
   color: #0e7c7b;
 }
+.button {
+  color: #f50a0a;
+}
 /*---------------------------------------HOME---------------------------------------*/
 /*---------------MAIN---------------*/
 .hero {
@@ -545,6 +548,11 @@ footer p {
   }
   .formContacto p {
     text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .testimonios {
+    display: none;
   }
 }
 @media screen and (max-width: 845px) {
